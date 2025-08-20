@@ -4,13 +4,10 @@ We're going to build Airbnb. Really. We're going to take this in steps. First
 let's work on our model associations and write migrations. This will be
 challenging, but doable. Take it slow and work together. Follow the model specs.
 
-**_Before anything_**, note that when you generate models, controllers, etc,
-be sure to include this option, so that it skips tests (which we already have):
-`--no-test-framework`
-
 ## Where to Begin
 
-First think about the relations between all of the objects. Let's work through
+First, you will have to set up your migration files in order for the tests to run. Take a look at the spec files for an idea of how to build each table.
+Once you run your migrations, think about the relations between all of the objects. Let's work through
 Users and Listings, and from there you should know some cool ActiveRecord tricks
 to get started on the rest.
 
